@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <header>
+    <nav>
+        <ul>
+        
+            <li><a href="MainPage.html">Home Page</a></li>
+          <li><a href="CV.html">CV</a></li>
+          <li><a href="Schedule.html">Weekly Schedule</a></li>
+          <li><a href="ArabicContent.html">Arabic Content</a></li>
+          <li><a href="Research.html">Research Subject</a></li>
+          <li><a href="Contact Us.html">Contact Us</a></li>
+          <li><a href="Media.html">Media </a></li>
+        </ul>
+      </nav>
+    <div class="container">
+      <h1>Quiz</h1>
+    </div>
+  </header>
+
+  <div class="container">
+    <form id="quiz-form">
+      <h2>Question 1: What is the capital of France?</h2>
+      <label><input type="radio" name="q1" value="paris"> Paris</label><br>
+      <label><input type="radio" name="q1" value="london"> London</label><br>
+      <label><input type="radio" name="q1" value="berlin"> Berlin</label><br>
+      <label><input type="radio" name="q1" value="rome"> Rome</label><br>
+
+      <h2>Question 2: What is the square root of 49?</h2>
+      <input type="text" id="q2" name="q2" placeholder="Enter your answer"><br>
+
+      <h2>Question 3: Who was the first president of the United States?</h2>
+      <label><input type="radio" name = "q3" value="Gebran Basil">Gebran Basil</label><br>
+      <label><input type="radio" name = "q3" value="Adolf Hitler">Adolf Hitler</label><br>
+      <label><input type="radio" name = "q3" value="George Washington">George Washington</label><br>
+      <label><input type="radio" name = "q3" value="Andrew Tate">Andrew Tate</label><br>
+
+      <h2>Question 4: which of the following is a form of energy?</h2>
+      <label><input type="radio" name = "q4" value="Atmospheric Pressure">Atmospheric Pressure</label><br>
+      <label><input type="radio" name = "q4" value="Heat">Heat</label><br>
+      <label><input type="radio" name = "q4" value="Mass">Mass</label><br>
+      <label><input type="radio" name = "q4" value="Coldness">Coldness</label><br>
+
+      <h2>Question 5: Who created penincilin?</h2>
+      <input type="text" id="q5" name="q5" placeholder="Enter your answer"><br>
+
+
+
+
+
+
+
+      <input type="submit" value="Submit">
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Bernard Tarabay. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
